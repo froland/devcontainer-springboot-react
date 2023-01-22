@@ -90,7 +90,6 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "cd server && ./mvnw install dependency:sources && cd ../client && npm install",
-  "remoteUser": "node",
   "portsAttributes": {
     "5173": {
       "label": "Vite dev server",
