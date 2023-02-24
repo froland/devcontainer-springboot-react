@@ -1,0 +1,13 @@
+{
+    "id": "springboot-react",
+    "version": "0.0.1",
+    "name": "spring-boot_react",
+    "description": "Develop spring-boot server with React client. Includes the JDK, Node.JS and extensions.",
+    "documentationURL": "https://github.com/froland/template-springboot-react/blob/main/README.md",
+    "publisher": "François ROLAND",
+    "platforms": [
+        "Java",
+        "JavaScript",
+        "Node.js"
+    ]
+}
