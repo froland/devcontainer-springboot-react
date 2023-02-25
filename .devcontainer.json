@@ -1,6 +1,6 @@
 {
   "name": "spring_boot_react",
-  "image": "froland/devcontainer-java-nodejs:latest",
+  "image": "froland/devcontainer-springboot-react:latest",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "cd server && ./mvnw package dependency:sources && cd ../client && npm install",
   "portsAttributes": {
