@@ -100,7 +100,7 @@
   },
   "containerEnv": { "JAVA_HOME": "/usr/lib/jvm/msopenjdk-current" },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "cd server && ./mvnw package dependency:sources && cd ../client && npm install",
+  "updateContentCommand": "cd server && mvn package dependency:sources && cd ../client && npm install",
   "portsAttributes": {
     "5173": {
       "label": "React",
