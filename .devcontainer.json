@@ -6,10 +6,10 @@
       "extensions": [
         "aaron-bond.better-comments",
         "adpyke.codesnap",
-        "cs50.extension-uninstaller",
         "dbaeumer.vscode-eslint",
         "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
+        "GitHub.copilot",
         "GitHub.github-vscode-theme",
         "humao.rest-client",
         "ms-vsliveshare.vsliveshare",
@@ -34,12 +34,6 @@
         "eslint.format.enable": false,
         "eslint.validate": ["javascript"],
         "extensions.ignoreRecommendations": true,
-        "extension-uninstaller.uninstall": [
-          "github.copilot",
-          "github.copilot-nightly",
-          "ms-toolsai.jupyter",
-          "tabnine.tabnine-vscode"
-        ],
         "files.watcherExclude": {
           "**/.git/objects/**": true,
           "**/.git/subtree-cache/**": true,
@@ -48,6 +42,10 @@
         "git.autofetch": true,
         "git.confirmSync": false,
         "git.enableSmartCommit": true,
+        "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+        "java.completion.importOrder": ["#", ""],
+        "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+        "java.codeGeneration.toString.codeStyle": "STRING_FORMAT",
         "java.checkstyle.configuration": "/google_checks.xml",
         "java.compile.nullAnalysis.mode": "automatic",
         "java.configuration.runtimes": [
@@ -58,7 +56,7 @@
           }
         ],
         "java.configuration.updateBuildConfiguration": "automatic",
-        "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+        "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
         "java.format.settings.profile": "GoogleStyle",
         "java.inlayHints.parameterNames.enabled": "none",
         "java.maven.downloadSources": true,
@@ -95,8 +93,8 @@
           "editor.formatOnSave": true
         },
         "[xml]": { "editor.defaultFormatter": "redhat.vscode-xml" }
+        }
       }
-    }
   },
   "containerEnv": { "JAVA_HOME": "/usr/lib/jvm/msopenjdk-current" },
   "waitFor": "onCreateCommand",
